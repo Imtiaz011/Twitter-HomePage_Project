@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Homepage</title>
+    <link rel="stylesheet" href="css/TwitterFont.css">
+    <link rel="stylesheet" href="css/blocks/layout.css">
+    <link rel="stylesheet" href="css/blocks/twitter_logo.css">
+    <link rel="stylesheet" href="css/blocks/sidebar-Menu.css">
+    <link rel="stylesheet" href="css/blocks/tweet.css">
+    <link rel="stylesheet" href="css/blocks/trends-for-you.css" />
+    <link rel="stylesheet" href="css/blocks/who-to-follow.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__left-sidebar">
+            <img src="./svg/twitter.svg" class="twitter_logo" />
+            <!-------------- Left Sidebar ---------------->
+            <div class="sidebar-menu">
+                <div class="sidebar-menu__item sidebar-menu__item--active">
+                    <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+                    Home
+                </div>
+                <div class="sidebar-menu__item">
+                    <img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
+                    Explore
+                </div>
+                <div class="sidebar-menu__item">
+                    <img src="./svg/notifications.svg" class="sidebar-menu__item-icon" />
+                    Notifications
+                </div>
+                <div class="sidebar-menu__item">
+                    <img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
+                    Messages
+                </div>
+                <div class="sidebar-menu__item">
+                    <img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
+                    Profile
+                </div>
+                <div class="sidebar-menu__item">
+                    <img src="./svg/more.svg" class="sidebar-menu__item-icon" />
+                    More
+                </div>
+                <div class="twitter_button">Tweet</div>
+            </div>
+        </div>
+        <!---------------- Main ------------------>
+        <div class="layout__main">
+            <div class="prefer">
+                <!-------------- home bar ----------------->
+                <span>
+                    <a href="">Home</a>
+                </span>
+                <span>
+                    <i class="fa fa-star-o"></i>
+                </span>
+            </div>
+            <div class="yourTweet">
+                <div class="profile">
+                    <span>
+                        <img src="./images/profilepic1.jpg">
+                    </span>
+                    <span><input type="text" placeholder="Search"></span>
+                </div>
+                <div class="addExtra">
+                    <div class="imagesMore">
+                        <span><a href=""><i class="fa fa-picture-o"></i></a></span>
+                        <span><a href=""><i class="fa fa-bars"></i></a></span>
+                        <span><a href=""><i class="fa fa-smile-o"></i></a></span>
+                        <span><a href=""><i class="fa fa-calendar-plus-o"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tweet">
+                <!-------------- 1st tweet -------------------->
+                <img src="./images/profilepic1.jpg" class="twitter__userpic" />
+                <div class="tweet__main">
+                    <!--user head-->
+                    <div class="tweet__header">
+                        
+                        <!-- user1 info-->
+                        <div class="twitter__username">
+                            Jessica Jingle
+                        </div>
+                        <div class="twitter__userid">
+                            @parkSoDam
+                        </div>
+                        <div class="tweet__publish-time">
+                            4h
+                        </div>
+                    </div>
+
+                    <!-- user body -->
+                    <div class="tweet__content">
+                        Jessica, only child, Illinois Chicago,He is your cousin.*Ding-Dong*
+                    </div>
+
+                </div>
+            </div>
+            <!------------------ 2nd tweet -------------------->
+            <div class="tweet">
+                <img src="./images/profilepic3.jpg" class="twitter__userpic" />
+                <div class="tweet__main">
+                    <!--user head-->
+                    <div class="tweet__header">
+                        <!-- user2 info-->
+                        <div class="twitter__username">
+                            Peter Parker
+                        </div>
+                        <div class="twitter__userid">
+                            @spiderman
+                        </div>
+                        <div class="tweet__publish-time">
+                            37m
+                        </div>
+                    </div>
+
+                    <!-- user body -->
+                    <div class="tweet__content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellendus debitis quia ab necessitatibus numquam blanditiis
+                        similique ?
+                        <a href="https://google.com/auroraborealis">(Aurora Borealis)</a>
+                        <img class="tweet__postimage" src="./images/postimage1.jpg">
+                    </div>
+
+                </div>
+            </div>
+            <!---------------- 3rd tweet ----------------->
+            <div class="tweet">
+                <img src="./images/profilepic2.jpg" class="twitter__userpic" />
+                <div class="tweet__main">
+                    <!--user head-->
+                    <div class="tweet__header">
+                        <!-- user3 info-->
+                        <div class="twitter__username">
+                            Your Name
+                        </div>
+                        <div class="twitter__userid">
+                            @mitsuha
+                        </div>
+                        <div class="tweet__publish-time">
+                            9h
+                        </div>
+                    </div>
+
+                    <!-- user body -->
+                    <div class="tweet__content">
+                        Amet consectetur adipisicing elit. Incidunt laborum ratione facilis
+                        aperiam aliquam aut voluptatum inventore ut labore sequi doloribus totam dolor
+                        cum possimus deserunt atque porro, mollitia ea, recusandae quod cumque eaque,
+                        harum sapiente sint! Debitis, nihil consequuntur?
+                        "threads"→
+                        <a href="https://google.com/Yourname">(https://google.com/Yourname)</a>
+                    </div>
+
+                </div>
+            </div>
+            <!----------------- 4th tweet ------------------->
+            <div class="tweet">
+                <img src="./images/profilepic1.jpg" class="twitter__userpic" />
+                <div class="tweet__main">
+                    <!--user head-->
+                    <div class="tweet__header">
+                        <!-- user4 info-->
+                        <div class="twitter__username">
+                            tenet
+                        </div>
+                        <div class="twitter__userid">
+                            @tenet007
+                        </div>
+                        <div class="tweet__publish-time">
+                            8d
+                        </div>
+                    </div>
+
+                    <!-- user body -->
+                    <div class="tweet__content">
+                        Sit, amet consectetur adipisicing elit. Ipsam asperiores itaque,
+                        est aliquam libero quibusdam aliquid reiciendis culpa, nulla velit necessitatibus
+                        sit perspiciatis labore dignissimos voluptatum possimus voluptate distinctio at?
+                        <video class="tweet__postvideo" controls loop>
+                            <source src="./images/tenet.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!---------------- Right Side ------------------>
+        <div class="layout__right-sidebar-container">
+            <div class="layout__right-sidebar">
+                <div class="trends-for-you">
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you__heading">
+                            Trends for you
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you_information">
+                            Trending now
+                        </div>
+                        <div class="trends-for-you_trend-name">
+                            #waitforme
+                        </div>
+                        <div class="trends-for-you_information">
+                            88k Tweets
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you_information">
+                            Trending in Cricket
+                        </div>
+                        <div class="trends-for-you_trend-name">
+                            #worldcupT20
+                        </div>
+                        <div class="trends-for-you_information">
+                            6,675 Tweets
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you_information">
+                            Trending - Shopping
+                        </div>
+                        <div class="trends-for-you_trend-name">
+                            #Netflix
+                        </div>
+                        <div class="trends-for-you_information">
+                            3,345 Tweets
+                        </div>
+                    </div>
+                </div>
+                <div class="who-to-follow">
+                    <div class="who-to-follow__block">
+                        <div class="who-to-follow__heading">
+                            Who to follow
+                        </div>
+                    </div>
+                    <div class="who-to-follow__block">
+                        <img class="who-to-follow__profilelogo" src="./images/profilepic1.jpg" />
+                        <div class="who-to-follow__content">
+                            <div>
+                                <div class="who-to-follow__profile-name">
+                                    Anonymous
+                                </div>
+                                <div class="who-to-follow__profileid">
+                                    @lorem34
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                    <div class="who-to-follow__block">
+                        <img class="who-to-follow__profilelogo" src="./images/profilepic2.jpg" />
+                        <div class="who-to-follow__content">
+                            <div>
+                                <div class="who-to-follow__profile-name">
+                                    Hello world
+                                </div>
+                                <div class="who-to-follow__profileid">
+                                    @helloworld456
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="who-to-follow__block">
+                        <img class="who-to-follow__profilelogo" src="./images/profilepic3.jpg" />
+                        <div class="who-to-follow__content">
+                            <div>
+                                <div class="who-to-follow__profile-name">
+                                    Creative
+                                </div>
+                                <div class="who-to-follow__profileid">
+                                    @creative223
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
